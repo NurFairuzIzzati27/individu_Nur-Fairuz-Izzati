@@ -1,0 +1,30 @@
+div.scrollmenu {
+  background-color: rgba(25, 121, 150,0.6);
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(231, 229, 229);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(83, 112, 177);
+}
+
+.right {
+  float: right;
+  width: 22.33%;
+  padding: 15px;
+  border:rgba(25, 121, 150,0.6) solid;
+  background-color: rgb(143, 171, 188);
+  margin-top: -500px;
+}
+@media screen and (max-width:600px) {
+  .right {
+    width: 33.33%;
+}
